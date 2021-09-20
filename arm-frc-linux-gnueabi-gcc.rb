@@ -1,6 +1,6 @@
 require 'formula'
 
-class GccFrc < Formula
+class ArmFrcLinuxGnueabiGcc < Formula
   homepage "http://gcc.gnu.org"
   url "http://ftpmirror.gnu.org/gcc/gcc-4.9.4/gcc-4.9.4.tar.bz2"
   mirror "ftp://gcc.gnu.org/pub/gcc/releases/gcc-4.9.4/gcc-4.9.4.tar.bz2"
