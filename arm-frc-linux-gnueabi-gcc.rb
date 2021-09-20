@@ -48,7 +48,7 @@ class ArmFrcLinuxGnueabiGcc < Formula
 
     # Symlink with binutils so that GCC can find
     # the right assembler and linker
-    ln_s "#{Formula["arm-linux-gnueabihf-binutils"].opt_prefix}/#{target}", "#{prefix}/#{target}"
+    ln_s "#{Formula["arm-frc-linux-gnueabi-binutils"].opt_prefix}/#{target}", "#{prefix}/#{target}"
 
     mkdir 'build' do
       system "../configure", *args
